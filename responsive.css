@@ -1,0 +1,111 @@
+@media screen and (max-width: 992px) {
+
+    /* NAVBAR START */
+    .navbar-collapse .navbar-nav {
+        text-align: center;
+    }
+
+    .nav-item .active{
+        border: none;
+    }
+
+    .btn-reg {
+        background: transparent;
+        color: #000000;
+    }
+
+    .btn-reg:hover,
+    .btn-reg:focus {
+        color: #000000;
+    }
+
+    /* NAVBAR END */
+
+    /* TEASER START*/
+    .teaser-heading {
+        font-size: 1.5rem;
+    }
+
+    .teaser-para {
+        font-size: 0.8rem;
+    }
+
+    .teaser-btn {
+        padding: 0.5rem 1rem;
+    }
+
+    /* TEASER END */
+
+    /* FORM START */
+    .date-time {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .date-time input,
+    .date-time select {
+        margin: 0;
+    }
+
+    .g-5 {
+        --bs-gutter-y: 2rem;
+    }
+
+    /* FORM END */
+
+    /* ABOUT START */
+    #about .content {
+        width: 100%;
+        padding: 1rem 0;
+    }
+    /* ABOUT END */
+
+    /* FEATURES START*/
+    .feature-img {
+        margin: 1.5rem 0;
+    }
+
+    /* FEATURES END */
+
+    /* VEHICLES START */
+    .vehicle-img {
+        margin: 1rem 0;
+    }
+
+    /* VEHICLES END */
+
+    /* FOOTER START */
+    .footer-row div {
+        margin-bottom: 1rem;
+    }
+
+    .img-icon {
+        width: 4%;
+    }
+
+    /* FOOTER END */
+}
+
+@media screen and (max-width: 768px) {
+
+    /* TEASER START */
+    .teaser {
+        padding-bottom: 0;
+    }
+
+    .teaser-img {
+        display: none;
+    }
+
+    .teaser-content {
+        width: auto;
+    }
+
+    .teaser div {
+        justify-content: center;
+        text-align: center;
+    }
+
+    /* TEASER END */
+}
